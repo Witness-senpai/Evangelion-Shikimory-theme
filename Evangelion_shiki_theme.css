@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+
+/*Подключаемые шрифты*/
+
+/*====Верхняя менюшка====*/
+/*Логотип*/
+.l-top_menu .inner .logo{
+   background: url(https://i.imgur.com/AbqnuKD.png);
+   margin: 10px 15px 0 10px;
+   width: 125px;
+   height: 25px; 
+} 
+.l-top_menu .inner .logo{
+    background: url(https://i.imgur.com/AbqnuKD.png);
+    margin: 10px 15px 0 10px;
+    width: 125px;
+    height: 25px;
+} 
+/*Логотип*/
+/*Навагиция*/
+.l-top_menu{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration-color: red;
+    height: 40px;
+} 
+.l-top_menu .menu-items>.entry>a{
+    font-size:14px;
+    color: #fe121b;
+    padding: 8px 10px 0;
+    margin-left: 10px;
+}
+.l-top_menu .menu-items>.entry>.submenu>a{
+   color: #fe121b;
+   font-size:13px;
+}
+.l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a{
+   padding: 9px;
+}
+/*Значёк галочки*/
+.l-top_menu .menu-items>.entry>.contest{
+    margin: 10px 5px 0 0;
+}
+.l-top_menu .menu-items>.entry>.contest:before{
+    line-height: 6px;
+}
+.menu .unread-count:hover, .menu .contest:hover{
+   background: #fe121b !important;
+}
+/*Значёк галочки*/
+/*Строка поиска с мини аватаром*/
+.menu .unread-count, .menu .contest{
+  background: #fe121b;
+  color: #353535;
+}
+.menu .avatar, .menu .unread-count, .menu .contest{
+   border-radius: 10px;
+}
+.l-top_menu .menu-search, .l-top_menu .menu-userbox{
+  padding-top:4px;
+}
+/*Строка поиска с мини аватаром*/
+/*Навагиция*/
+/*====Верхняя менюшка====*/
+
+/*====Шапка профиля====*/
+
+
+
+/*====Шапка профиля====*/
+
+/*====Контент профиля====*/
+
+.p-profiles-show .lifetime .bar {
+    height: 10px;
+    line-height: 5px;
+}
+.p-profiles-show .lifetime .cuts .cut {
+    height: 10px;
+    width: 2px;
+    background-color: none;
+}
+.p-profiles-show .lifetime .times .time {
