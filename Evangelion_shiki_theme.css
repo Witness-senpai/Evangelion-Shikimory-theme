@@ -1,3 +1,4 @@
+/* AUTO=body_background */ body { background: url(/assets/background/square_bg.png) repeat; }
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
@@ -93,26 +94,15 @@ height: 40px;
   border-radius: 5px;  
 }
 /*===Timelenes anime and manga===*/
-.p-profiles-show .lifetime .bar {
-    height: 10px;
-    line-height: 5px;
-}
-.p-profiles-show .lifetime .cuts .cut {
-    height: 10px;
-    width: 2px;
-    background-color: none;
-}
-.p-profiles-show .lifetime .times .time {
-    font-size: 13px;
-}
+
 .b-stats_bar .bar{
     box-shadow: 0 0 3px #000000c2;
 }  
 .b-stats_bar.anime .bar .first{
-    background: #3c3e3c;
+  background: #3c3e3c;
 }
 .b-stats_bar.anime .bar .second{
-    background: #505050a6;
+  background: #505050a6;
 }
 .b-stats_bar.manga .bar .first{
     background: #288a78;
@@ -121,7 +111,7 @@ height: 40px;
     background: #33776b5c;
 }  
 .b-stats_bar .bar .third{
-    background: #adadada8;
+  background: #adadada8;
 }
 /*===Timelenes anime and manga===*/
 /*===============Profile head==================*/
@@ -134,7 +124,54 @@ height: 40px;
 .p-profiles .profile-head .c-history.x3{
     background-color: rgba(255, 255, 255, 0.6);
 }
+.p-profiles .profile-head .c-history .entry .misc{
+    color: #353535 !important;
+}
+.p-profiles .profile-head .c-history .entry .misc.date{
+  color: #000000 !important;
+}
 /*===Histody===*/
+/*===Fritends===*/
+
+/*===Fritends===*/
+/*===Clubs===*/
+
+/*===Clubs===*/
+/*===favorites===*/
+.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
+  background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 10px;
+}
+.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child{
+  height: 130px;
+}
+.b-catalog_entry .cover .image-decor img{
+  border-radius: 10px;
+}
+/*===favorites===*/
+/*===Statistic===*/
+.p-profiles-show .lifetime .bar {
+    height: 10px;
+    line-height: 5px;
+}
+.p-profiles-show .lifetime .cuts .cut {
+    height: 10px;
+    width: 2px;
+    background: black;
+}
+.p-profiles-show .lifetime .times .time {
+    font-size: 13px;
+}
+.bar.simple .bar.s3 { background: #7F7F7F;}
+.bar.simple .bar:hover.s3 { background: #919191;}
+.bar.simple .bar.s2 { background: #565656;}
+.bar.simple .bar:hover.s2 { background: #7F7F7F;}
+.bar.simple .bar.s1 { background: #444444;}
+.bar.simple .bar:hover.s1 { background: #565656;}
+.bar.simple .bar.s0 { background: #363636;}
+.bar.simple .bar:hover.s0 { background: #444444;}
+/*===Statistic===*/
 /*===============Profile content===============*/
 /*===============Common styles=================*/
 body{
@@ -147,6 +184,7 @@ body{
 }
 .l-page{
     background-color: #2b2a2a85;
+    border-radius: 6px;
 }
 .subheadline{
     border-radius: 10px;
