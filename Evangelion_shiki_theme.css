@@ -1,30 +1,35 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+/*Fonts*/
 
-/*Подключаемые шрифты*/
-
-/*====Верхняя менюшка====*/
-/*Логотип*/
+/*====Top menu====*/
+/*Site logo*/
+.l-top_menu .inner .logo{
+    background: url(https://i.imgur.com/AbqnuKD.png);
+    margin: 10px 15px 0 10px;
+    width: 125px;
+    height: 25px; 
+} 
 .l-top_menu .inner .logo{
    background: url(https://i.imgur.com/AbqnuKD.png);
    margin: 10px 15px 0 10px;
    width: 125px;
    height: 25px; 
-} 
-.l-top_menu .inner .logo{
-    background: url(https://i.imgur.com/AbqnuKD.png);
-    margin: 10px 15px 0 10px;
-    width: 125px;
-    height: 25px;
-} 
-/*Логотип*/
-/*Навагиция*/
+}
+
+/*Site logo*/
+/*Top nav*/
 .l-top_menu{
-    font-family: 'Ubuntu';
+    /*font-family: 'Ubuntu';*/
     font-weight: 700;
     text-transform: uppercase;
-    text-decoration-color: red;
+    text-decoration-color: #fe121b;
     height: 40px;
 } 
+.l-top_menu .menu-items{
+      margin-left: 135px;
+}
 .l-top_menu .menu-items>.entry>a{
     font-size:14px;
     color: #fe121b;
@@ -38,7 +43,18 @@
 .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a{
    padding: 9px;
 }
-/*Значёк галочки*/
+
+.to-top-fix, .l-top_menu {
+background: none;
+border-bottom: none;
+}
+.l-top_menu .inner {
+background-color: #353535; 
+height: 40px;
+  border-radius: 6px;
+}
+
+/*tournament icon*/
 .l-top_menu .menu-items>.entry>.contest{
     margin: 10px 5px 0 0;
 }
@@ -48,8 +64,8 @@
 .menu .unread-count:hover, .menu .contest:hover{
    background: #fe121b !important;
 }
-/*Значёк галочки*/
-/*Строка поиска с мини аватаром*/
+/*tournament icon*/
+/*Search and mini avatar*/
 .menu .unread-count, .menu .contest{
   background: #fe121b;
   color: #353535;
@@ -60,17 +76,28 @@
 .l-top_menu .menu-search, .l-top_menu .menu-userbox{
   padding-top:4px;
 }
-/*Строка поиска с мини аватаром*/
-/*Навагиция*/
-/*====Верхняя менюшка====*/
+.l-top_menu .submenu>.entry, .b-main_search .popup li{
+    color: #fe121b;
+}
+/*Search and mini avatar*/
+/*Top nav*/
+/*====Top menu====*/
 
-/*====Шапка профиля====*/
+/*====Profile head====*/
+.avatar>img{
+    border-radius: 80px;
+    border: 2px solid #fe121cc2;
+    box-shadow: 0 0 7px #fe121cc2;
+}
+.p-profiles .profile-head .c-brief header{
+  background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
 
 
+/*====Profile head====*/
 
-/*====Шапка профиля====*/
-
-/*====Контент профиля====*/
+/*====Profile content====*/
 
 .p-profiles-show .lifetime .bar {
     height: 10px;
@@ -82,3 +109,22 @@
     background-color: none;
 }
 .p-profiles-show .lifetime .times .time {
+    font-size: 13px;
+}
+
+/*====Profile content====*/
+
+/*====Common styles====*/
+body{
+    background-image: url(https://i.imgur.com/nWs0Jf6.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ Рё Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* РЎРѕРІСЂРµРјРµРЅРЅС‹Рµ Р±СЂР°СѓР·РµСЂС‹ */
+    background-attachment:fixed; 
+}
+
+.l-page{
+  background-color: #2b2a2a85;
+} 
+/*====Common styles====*/
