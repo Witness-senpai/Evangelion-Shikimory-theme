@@ -3,8 +3,9 @@
 /*Fonts*/
 /*===============Top menu=================*/
 /*===Site logo===*/
-@media only screen and (min-width: 1024px)
-.l-top_menu .inner .logo{} 
+@media only screen and (min-width: 1024px){
+  .l-top_menu .inner .logo{} 
+}
 .l-top_menu .inner .logo{
     background: url(https://i.imgur.com/AbqnuKD.png);
     margin: 8px 15px 0 10px;
@@ -15,14 +16,19 @@
     color: #bababa;
     left: 140px;
     margin: 5px !important;
-}
+}  
+
 /*===Site logo===*/
 /*===Top nav===*/
 .x1200 .l-top_menu .inner{
-	max-width: 1030px;
+    max-width: 1030px;
 }
-.l-top_menu{
-    /*font-family: 'Ubuntu';*/
+.l-top_menu .menu-mobile .search, .l-top_menu .menu-mobile .menu, .l-top_menu .menu-mobile #sign_in, .l-top_menu .menu-userbox .search, .l-top_menu .menu-userbox .menu, .l-top_menu .menu-userbox #sign_in{
+  	color: #bababa;
+    margin: 5px 2px 0 15px !important;
+}
+
+.l-top_menu{  
     font-weight: 700;
     text-transform: uppercase;
     text-decoration-color: #fe121b;
@@ -66,32 +72,68 @@
 }
 /*===tournament icon===*/
 /*===Search and mini avatar===*/
+@media only screen and (max-width: 1024px){
+  	.userbox img.avatar, .menu .unread-count{
+     	margin-top: 0; 
+  	}    
+    .menu .unread-count{	
+     	right: -6px !important;
+    	top: -3px !important;   	
+    }
+  	.l-top_menu .menu-userbox{
+      	margin-right: 0 !important;
+  	}
+}
+.menu .avatar{
+  	height: 30px;
+}
+.l-top_menu .menu-search>.b-main_search, .l-top_menu .menu-search{
+	margin-top: 5px;
+}
+.l-top_menu .menu-userbox{
+	margin-top: 5px;
+  	margin-right: 25px;
+}
+.menu .unread-count{
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    border: 2px solid #353535;
+}
 .menu .unread-count, .menu .contest{
   	background: #fe121b;
   	color: #353535;
 }
 .menu .avatar, .menu .unread-count, .menu .contest{
-    border-radius: 10px;
+    border-radius: 15px;
 }
-.l-top_menu .menu-search, .l-top_menu .menu-userbox{
-  	padding-top:4px;
-}
+
 .l-top_menu .submenu>.entry, .b-main_search .popup li{
     color: #fe121b;
 }
+.l-top_menu .menu-search>.entry, .l-top_menu .menu-userbox>.entry{
+  	padding: 0;	
+} 
 /*===Search and mini avatar===*/
 /*===Top nav===*/
 /*===============Top menu===================*/
 /*===============Profile head===============*/
 .avatar>img{
     border-radius: 80px;
-    border: 2px solid #fe121cc2;
-    box-shadow: 0 0 7px #fe121cc2;
+    border: 1px solid #fe121cc2;
+    box-shadow: 0 0 5px #fe121cc2;
 }
 .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar .profile-actions, .c-lists-info{
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 6px;
     padding: 5px;
+  	margin-bottom: 5px;
 }
 .b-stats_bar .bar{
   	border-radius: 6px;  
