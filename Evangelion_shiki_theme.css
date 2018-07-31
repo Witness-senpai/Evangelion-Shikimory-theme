@@ -1,24 +1,26 @@
-/* AUTO=body_background */ body { background: url(/assets/background/square_bg.png) repeat; }
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
 /*Fonts*/
 /*===============Top menu=================*/
 /*===Site logo===*/
+@media only screen and (min-width: 1024px)
+.l-top_menu .inner .logo{} 
 .l-top_menu .inner .logo{
     background: url(https://i.imgur.com/AbqnuKD.png);
-    margin: 10px 15px 0 10px;
+    margin: 8px 15px 0 10px;
     width: 125px;
     height: 25px; 
-} 
-.l-top_menu .inner .logo{
-   background: url(https://i.imgur.com/AbqnuKD.png);
-   margin: 10px 15px 0 10px;
-   width: 125px;
-   height: 25px; 
+}
+.l-top_menu .to-mobile-forum {
+    color: #bababa;
+    left: 140px;
+    margin: 5px !important;
 }
 /*===Site logo===*/
 /*===Top nav===*/
+.x1200 .l-top_menu .inner{
+	max-width: 1030px;
+}
 .l-top_menu{
     /*font-family: 'Ubuntu';*/
     font-weight: 700;
@@ -27,7 +29,7 @@
     height: 40px;
 } 
 .l-top_menu .menu-items{
-      margin-left: 135px;
+    margin-left: 135px;
 }
 .l-top_menu .menu-items>.entry>a{
     font-size:14px;
@@ -36,20 +38,21 @@
     margin-left: 10px;
 }
 .l-top_menu .menu-items>.entry>.submenu>a{
-   color: #fe121b;
-   font-size:13px;
+    color: #fe121b;
+    font-size:13px;
 }
 .l-top_menu .menu-items>.entry.calendar>a, .l-top_menu .menu-items>.entry.info>a{
-   padding: 9px;
+    padding: 9px;
 }
 .to-top-fix, .l-top_menu {
-background: none;
-border-bottom: none;
+	background: none;
+	border-bottom: none;
+    margin: 0 auto;
 }
 .l-top_menu .inner {
-background-color: #353535; 
-height: 40px;
-  border-radius: 6px;
+	background-color: #353535; 
+	height: 40px;
+  	border-radius: 6px;
 }
 /*===tournament icon===*/
 .l-top_menu .menu-items>.entry>.contest{
@@ -59,19 +62,19 @@ height: 40px;
     line-height: 6px;
 }
 .menu .unread-count:hover, .menu .contest:hover{
-   background: #fe121b !important;
+   	background: #fe121b !important;
 }
 /*===tournament icon===*/
 /*===Search and mini avatar===*/
 .menu .unread-count, .menu .contest{
-  background: #fe121b;
-  color: #353535;
+  	background: #fe121b;
+  	color: #353535;
 }
 .menu .avatar, .menu .unread-count, .menu .contest{
-   border-radius: 10px;
+    border-radius: 10px;
 }
 .l-top_menu .menu-search, .l-top_menu .menu-userbox{
-  padding-top:4px;
+  	padding-top:4px;
 }
 .l-top_menu .submenu>.entry, .b-main_search .popup li{
     color: #fe121b;
@@ -87,11 +90,11 @@ height: 40px;
 }
 .p-profiles .profile-head .c-brief header, .p-profiles .profile-head .c-brief .avatar .profile-actions, .c-lists-info{
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 5px;
 }
 .b-stats_bar .bar{
-  border-radius: 5px;  
+  	border-radius: 6px;  
 }
 /*===Timelenes anime and manga===*/
 
@@ -99,10 +102,10 @@ height: 40px;
     box-shadow: 0 0 3px #000000c2;
 }  
 .b-stats_bar.anime .bar .first{
-  background: #3c3e3c;
+  	background: #3c3e3c;
 }
 .b-stats_bar.anime .bar .second{
-  background: #505050a6;
+  	background: #505050a6;
 }
 .b-stats_bar.manga .bar .first{
     background: #288a78;
@@ -111,46 +114,53 @@ height: 40px;
     background: #33776b5c;
 }  
 .b-stats_bar .bar .third{
-  background: #adadada8;
+  	background: #adadada8;
 }
 /*===Timelenes anime and manga===*/
 /*===============Profile head==================*/
 /*===============Profile content===============*/
 /*===Histody===*/
 .p-profiles .profile-head .c-history{
-    border-radius:10px;
+    border-radius: 6px;
     padding: 4px;
 }
 .p-profiles .profile-head .c-history.x3{
     background-color: rgba(255, 255, 255, 0.6);
 }
 .p-profiles .profile-head .c-history .entry .misc{
-    color: #353535 !important;
+  	color: #353535 !important;
 }
 .p-profiles .profile-head .c-history .entry .misc.date{
-  color: #000000 !important;
+ 	color: #000000 !important;
 }
 /*===Histody===*/
 /*===Fritends===*/
-
+.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
+	height: 92px;
+}
 /*===Fritends===*/
 /*===Clubs===*/
 
 /*===Clubs===*/
 /*===favorites===*/
 .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
-  background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child{
-  height: 130px;
+	height: 130px;
 }
 .b-catalog_entry .cover .image-decor img{
-  border-radius: 10px;
+	border-radius: 6px;
 }
 /*===favorites===*/
 /*===Statistic===*/
+.cc-2>.c-column:nth-child(2n+1){
+	background-color: rgba(255, 255, 255, 0.6);
+  	border-radius: 6px;
+  	padding: 4px;
+}
 .p-profiles-show .lifetime .bar {
     height: 10px;
     line-height: 5px;
@@ -186,8 +196,11 @@ body{
     background-color: #2b2a2a85;
     border-radius: 6px;
 }
+.x1200 .l-page{
+	max-width: 1000px;
+}
 .subheadline{
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: rgba(255, 255, 255, 0);
     border-left: none;
 }  
