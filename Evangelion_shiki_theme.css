@@ -176,32 +176,74 @@
  	color: #000000 !important;
 }
 /*===Histody===*/
-/*===Fritends===*/
+/*===Fritends===*//*===Clubs===*/
 .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
-	height: 92px;
+	height: 127px;
 }
-/*===Fritends===*/
-/*===Clubs===*/
 
-/*===Clubs===*/
+.p-profiles .profile-content .cc-2 .c-right .cc-2a{
+	position: absolute;
+    top: -42px;
+    right: 0;
+    width: 49%;
+    margin: -262px -252px 0px 0;
+}
+.p-profiles-show.x1200 .profile-content .c-right .cc-2a>.c-column{
+	width: 47%;
+    height: 115px;
+    margin-top: 21px;
+}
+@media screen and (max-width: 1200px){
+    .cc-2a>.c-column{
+  		float: none;  	
+    }
+}
+@media screen and (max-width: 1024px){
+	.p-profiles .profile-content .cc-2 .c-right .cc-2a{
+  		position: relative;
+    	top: -60px;
+    	right: 6%;
+    	width: 212.5%;
+    	margin: 52px 0 0 6%;  
+  	}
+  	.p-profiles-show.x1200 .profile-content .c-rigth .cc-2a>.c-column{
+  	    width: 100%;
+    }
+  	.p-profiles-show.x1200 .profile-content .c-left{
+  	    width: 100%;
+    }
+}
+/*===Fritends===*//*===Clubs===*/
 /*===favorites===*/
-.cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
+.p-profiles-show.x1200 .profile-content .c-right{
+  	width: 100%;
+}
+#cutted_covers_1 .image-cutter{
+  	max-height: 100%;
+    max-width: 100%;
+  	border-radius: 6px;
+}	
+.cc-2>.c-column>.block:last-child, .cc-2>.-column>.subcontent:last-child, .cc-2a>.c-column:last-child, .cc-2a>.c-column:nth-child(2n+1){
 	background-color: rgba(255, 255, 255, 0.6);
     padding: 5px;
     border-radius: 6px;
 }
 .cc-2>.c-column>.block:last-child, .cc-2>.c-column>.subcontent:last-child{
-	height: 130px;
-}
-.b-catalog_entry .cover .image-decor img{
-	border-radius: 6px;
+	height: 100%;
 }
 /*===favorites===*/
-/*===Statistic===*/
+@media screen and (min-width: 1024px){
+  .p-profiles-show.x1200 .profile-content .c-left{
+      width: 74%;
+  }
+}
 .cc-2>.c-column:nth-child(2n+1){
 	background-color: rgba(255, 255, 255, 0.6);
   	border-radius: 6px;
   	padding: 4px;
+}
+.p-profiles-show .lifetime{
+  	margin-bottom: 20px;
 }
 .p-profiles-show .lifetime .bar {
     height: 10px;
@@ -227,12 +269,13 @@
 /*===============Profile content===============*/
 /*===============Common styles=================*/
 body{
-    background-image: url(https://i.imgur.com/nWs0Jf6.jpg);
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-    background-attachment:fixed; 
+    background-image: url(https://i.imgur.com/G7WnaH1.jpg);
+    -moz-background-size: 102%; /* Firefox 3.6+ */
+    -webkit-background-size: 102%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 102%; /* Opera 9.6+ */
+    background-size: 102%; /* Современные браузеры */
+    background-attachment:fixed;
+    
 }
 .l-page{
     background-color: #2b2a2a85;
@@ -245,5 +288,5 @@ body{
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0);
     border-left: none;
-}  
+}
 /*===============Common styles=================*/
