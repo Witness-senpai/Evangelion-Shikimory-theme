@@ -289,4 +289,12 @@ body{
     background-color: rgba(255, 255, 255, 0);
     border-left: none;
 }
+header.head, #cutted_covers_1, #cutted_covers_2, #cutted_covers_3,
+#cutted_covers_4, #cutted_covers_5, #cutted_covers_6, #cutted_covers_7,
+#cutted_covers_8, #cutted_covers_9, #cutted_covers_10, 
+.menu-slide-outer.x199 .l-menu:last-child, .subheadline{
+  	background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border-radius: 6px;
+}
 /*===============Common styles=================*/
